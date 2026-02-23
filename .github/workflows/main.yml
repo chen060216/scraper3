@@ -41,5 +41,5 @@ jobs:
         run: |
           curl -H "Content-Type: application/json" \
           -X POST \
-          -d '{"content": "排程檢查 (4) 已經執行完畢"}' \
+          -d '{"content": "排程檢查 (3) 已經執行完畢"}' \
           ${{ secrets.DISCORD_WEBHOOK_URL }}
